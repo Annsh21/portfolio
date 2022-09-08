@@ -24,7 +24,7 @@ jobs:
       - uses: peaceiris/actions-hugo@v2
         with: {hugo-version: 0.101.0, extended: true}
 
-      - run: hugo --minify -d ./dist
+      - run: hugo --baseURL "https://annsh21.github.io/portfolio/" --minify -d ./dist
 
       - run: tar --dereference --hard-dereference -C ./dist -cvf ${{ runner.temp }}/artifact.tar .
 
