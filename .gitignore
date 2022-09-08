@@ -1,0 +1,12 @@
+## IDEs
+/.vscode
+/.idea
+
+## Temp dirs & trash
+.DS_Store
+/temp
+/tmp
+
+/resources
+/public
+/.hugo_build.lock
