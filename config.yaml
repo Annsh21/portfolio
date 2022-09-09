@@ -30,7 +30,7 @@ params:
   longitude: '-77.028333'
 
   # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-  style: default
+  style: blue
 
   # Enable the contact form by entering your Formspree.io endpoint url
   formspree_action: 'https://formspree.io/sample/of/endpoint'
@@ -67,13 +67,9 @@ params:
 
   # Enable or disable top bar with social icons
   topbar:
-    enable: true
+    enable: false
     text: >-
-      <p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or
-      hello@universal.com.</p>
-            <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-            <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-            </p>
+      Тест, который всегда выводится над шапкой сайта
 
   # Enable and disable widgets for the right sidebar
   widgets:
@@ -100,7 +96,7 @@ params:
     cols: 3  # Default: 3, Available values 2,3,4,6
   testimonials:
     enable: true
-    title: Testimonials
+    title: Отзывы о моей работе
     subtitle: >-
       We have worked with many clients and we always like to hear they come out
       from the cooperation happy and satisfied. Have a look what our clients
@@ -114,22 +110,22 @@ params:
       variations of homepage.
     link_url: '#'
     link_text: Check other homepages
-  clients:
-    enable: true
-    title: Our Clients
-    subtitle: ''
   recent_posts:
     enable: true
-    title: From our blog
+    title: Портфолио
     subtitle: >-
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames
       ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
       tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
       Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
     hide_summary: false
+  clients:
+    enable: true
+    title: Мои клиенты
+    subtitle: ''
   footer:
     recent_posts:
-      enable: true
+      enable: false
 
 # number of words of summarized post content (default 70)
 summaryLength: 70
