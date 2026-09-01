@@ -34,4 +34,4 @@ jobs:
           path: ${{ runner.temp }}/artifact.tar
           retention-days: 1
 
-      - {uses: actions/deploy-pages@v1, id: deployment}
+      - {uses: actions/deploy-pages@v5, id: deployment}
